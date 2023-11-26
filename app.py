@@ -6,7 +6,7 @@ JOBS = [
   {
     'id': 1,
     'title': 'Python Developer',
-    'location': 'Bengaluru, India',
+    'location': 'Noida, India',
     'salary': '100,000',
     'currency': 'INR'
   },
