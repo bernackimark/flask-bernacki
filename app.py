@@ -24,7 +24,7 @@ def hello_world():
   return render_template('home.html', jobs=JOBS, company_name='Bernacki Tech')
 
 @app.route('/api/jobs')
-def get_all_jobs() -> list[dict]:
+def get_all_jobs():
   return JOBS
 
 if __name__ == "__main__":
